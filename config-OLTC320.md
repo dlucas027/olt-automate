@@ -1,5 +1,7 @@
 # Configuração na íntegra
 
+```bash
+
 ---
 
 ZXAN#show ru

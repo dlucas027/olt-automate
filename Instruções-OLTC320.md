@@ -48,10 +48,6 @@ SSH usa a porta 22 por padrão.
 
 ## Ativação de PON
 
-# Configuração da Interface GPON OLT
-
-## Exemplo de comando para interface GPON OLT
-
 ```bash
 interface gpon-olt_1/1/1
   show this

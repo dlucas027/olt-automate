@@ -1,4 +1,4 @@
-#  **Configuração OLT ZTE C320**  
+#  **Configuração OLT ZTE**  
 
 ---
 

@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 #  **OLT AUTOMATE**  
 ---
 Este projeto é uma ferramenta desenvolvida em Python para facilitar a configuração de OLTs (Optical Line Terminals) da ZTE, mais especificamente os modelos C300, C320 e C350. A ferramenta tem como objetivo proporcionar um processo simplificado e intuitivo para a configuração dessas unidades, tornando mais fácil o trabalho dos profissionais de TI e técnicos de redes que precisam configurar essas OLTs, seja de forma inicial ou para manutenção.
+=======
+#  **Configuração OLT ZTE**  
+>>>>>>> e3733e2a5b10b1a2b57400d92eb88725aacaab77
 
 ---
 

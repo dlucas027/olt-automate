@@ -1,32 +1,74 @@
-#  **Configuração OLT ZTE C320**  
+#  **OLT AUTOMATE**  
+---
+Este projeto é uma ferramenta desenvolvida em Python para facilitar a configuração de OLTs (Optical Line Terminals) da ZTE, mais especificamente os modelos C300, C320 e C350. A ferramenta tem como objetivo proporcionar um processo simplificado e intuitivo para a configuração dessas unidades, tornando mais fácil o trabalho dos profissionais de TI e técnicos de redes que precisam configurar essas OLTs, seja de forma inicial ou para manutenção.
 
 ---
 
-Este projeto foi desenvolvido em três partes distintas para facilitar e otimizar o processo de configuração da OLT ZTE C320. A seguir, uma visão geral das partes que compõem o projeto:
+# **Funcionalidades**
 
-Parte 1 - Configurações da OLT em Markdown Simples
-Um arquivo Markdown contendo todas as configurações essenciais da OLT, de forma direta e sem explicações adicionais, para quem precisa de uma visão rápida e objetiva.
+O programa oferece um menu interativo que permite ao usuário selecionar diversas opções de configuração, de maneira clara e objetiva. Quando uma opção é escolhida, o programa retorna a configuração correspondente, além de fornecer explicações sobre a finalidade e os efeitos de cada configuração.
 
-Parte 2 - Configurações Detalhadas em Blocos
-Um segundo arquivo Markdown que organiza as configurações em blocos, proporcionando uma explicação detalhada e organizada de cada ponto de configuração. Ideal para quem deseja entender melhor cada comando e sua aplicação.
+Como Salvar as Configurações
+O programa orienta o usuário sobre como salvar as configurações feitas na OLT, garantindo que todas as alterações sejam persistentes após reinicializações.
 
-Parte 3 - Programa em Python
-A terceira parte é um programa em Python que facilita a consulta às configurações. O usuário escolhe o número correspondente à configuração desejada, e o programa retorna o script pronto para ser utilizado na OLT. Isso proporciona uma visão geral e prática, permitindo que o profissional consiga rapidamente aplicar ou revisar a configuração de um ponto específico.
+Como Ativar e Desativar Interfaces
+Esta opção permite que o usuário ative ou desative interfaces específicas da OLT, como interfaces de gerenciamento ou de uplink, diretamente pelo programa.
 
+Verificação de Configurações Aplicadas
+Ao selecionar essa opção, o usuário pode verificar as configurações que foram aplicadas na OLT, com a possibilidade de identificar se tudo está correto e funcionando como esperado.
+
+Interfaces da OLT
+O programa exibe detalhes sobre as interfaces configuradas na OLT, como informações sobre interfaces físicas e lógicas (PON, GPON, GEI), possibilitando um controle mais preciso das conexões.
+
+•PNP das Placas na OLT:
+Com essa opção, o usuário pode habilitar a detecção Plug-and-Play das placas e configurar o tipo de chassi, racks e shelves, facilitando a integração de novos módulos.
+
+•Configuração de IP de Acesso:
+Aqui, é possível configurar um novo IP de acesso para a OLT, permitindo que o gerenciamento remoto seja feito de forma eficiente.
+
+•Configuração de Gateway Padrão:
+A opção de configurar o gateway padrão é essencial para garantir que a OLT consiga se comunicar com outros dispositivos na rede, direcionando o tráfego de forma adequada.
+
+•Configuração de VLAN de Gerência:
+O programa permite configurar a VLAN de gerenciamento da OLT, o que é crucial para isolar o tráfego administrativo e garantir a segurança da rede.
+
+•Configuração de Interface de Up-Link:
+A interface de uplink (GEI) é configurada para permitir o tráfego de dados para a rede externa, incluindo a ativação de VLANs e ajustes de link.
+
+•Acesso Remoto da OLT:
+O usuário pode configurar o acesso remoto à OLT via Telnet ou SSH, garantindo o gerenciamento da OLT sem a necessidade de uma conexão física.
+
+•Configuração de Banda:
+Para otimizar a utilização da rede, essa opção configura o perfil de banda (TCON e tráfego), estabelecendo as bandas mínimas e máximas para os diferentes tipos de tráfego.
+
+•Configuração de VLAN para ONU:
+Essa funcionalidade permite configurar a VLAN para a ONU, permitindo que as ONUs se comuniquem na rede corretamente com a OLT.
+
+•Acesso Remoto da ONU:
+Similar ao acesso remoto da OLT, essa opção configura o acesso remoto das ONUs, garantindo que possam ser gerenciadas sem necessidade de intervenção local.
+
+•Configuração de PPPOE, Rede e Senha da ONU:
+O PPPOE pode ser configurado, juntamente com a rede e a senha de cada ONU, permitindo a autenticação e conectividade com a rede.
+
+•Histórico das Configurações Aplicadas:
+O programa mantém um histórico das configurações que foram aplicadas, o que permite um acompanhamento das ações feitas até o momento e facilita a revisão do que foi alterado.
+
+•Reset da OLT:
+Permite realizar um reset completo da OLT, útil em situações de erro ou para voltar as configurações para os padrões de fábrica.
+
+•Backup das Configurações da OLT:
+O backup das configurações da OLT é fundamental para preservar as configurações e poder restaurá-las facilmente em caso de falhas ou reconfiguração do dispositivo.
 
 ---
 
-## **Qual finalizade do projeto?**
+# Objetivo do Projeto
 
-Este projeto foi desenvolvido para me auxiliar no dia a dia ao realizar configurações na OLT. Atualmente, não temos a necessidade de mexer nas configurações todos os dias, o que resulta no esquecimento de algumas configurações importantes. Às vezes, tudo o que precisamos é bater o olho no código ou na configuração para relembrar.
+O principal objetivo deste projeto é automatizar e simplificar o processo de configuração de OLTs ZTE, proporcionando um guia interativo para que qualquer técnico ou administrador de rede consiga configurar uma OLT desde o início sem a necessidade de decorar ou procurar cada comando manualmente.
 
-Por esse motivo, desenvolvi esse projeto. No momento em que escrevo, sou iniciante em Python, então o objetivo é criar um projeto simples que me atenda quando eu precisar revisar as configurações.
+A ferramenta tem a intenção de ser útil para iniciantes e profissionais experientes, permitindo uma configuração mais rápida, sem erros e com explicações claras para que o usuário compreenda o que está fazendo em cada etapa.
 
-
-[📎 **LinkedIn**](https://www.linkedin.com/in/delucas027)
+Além disso, este projeto também pode ser um ponto de partida para novas funcionalidades, como a integração com APIs para automação de tarefas ou a criação de interfaces gráficas para tornar o processo ainda mais acessível.
 
 ---
----
 
-🔧 **Espero que este repositório seja útil para agilizar suas configurações e otimizar seu trabalho com a OLT ZTE C320!** 🚀
-
+[**LinkedIn**](https://www.linkedin.com/in/delucas027)

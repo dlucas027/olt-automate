@@ -66,16 +66,26 @@ A ferramenta tem a intenção de ser útil para iniciantes e profissionais exper
 
 Além disso, este projeto também pode ser um ponto de partida para novas funcionalidades, como a integração com APIs para automação de tarefas ou a criação de interfaces gráficas para tornar o processo ainda mais acessível.
  
-
-## 📸 Prévia  
-![Cartão de visita](https://github.com/user-attachments/assets/69d1cc36-799a-47df-9804-9bb581507154)
-![Página "Sobre nós"](https://github.com/user-attachments/assets/5ea60403-83e3-4b34-96a0-12e42a17e3ff)
-![Agendar](https://github.com/user-attachments/assets/41d08879-b730-44a0-9e36-ef36bd27f8e6)
-![Serviços](https://github.com/user-attachments/assets/540f2ae1-9675-49fb-8bc3-fbff4567440a)
+---
 
 
+### **Menu de Configurações Iniciais**  
+![Menu de Configurações Iniciais](https://github.com/user-attachments/assets/e4496a01-dea1-4f68-a035-fcca7ad2901a)  
 
+### **Menu de Configurações de Nível Médio**  
+![Menu de Configurações de Nível Médio](https://github.com/user-attachments/assets/1089cb06-5070-4046-83e2-398a15d3bfa8)  
 
+### **Menu de Alto Nível**  
+![Menu de Alto Nível](https://github.com/user-attachments/assets/3a25d5da-df01-443a-ba49-f2c02ec89476)  
+
+### **Histórico Geral (Disponível Apenas Neste Menu)**  
+![Histórico Geral](https://github.com/user-attachments/assets/c594ec5f-3044-4486-824d-4aab64e15d0f)  
+
+### **Menu Extra (Opções de Subir ONU, etc.)**  
+![Menu Extra](https://github.com/user-attachments/assets/9255ea3b-7c22-4a51-b88c-cf19df864de3)  
+
+### **Menu de Backup e Reset**  
+![Menu de Backup e Reset](https://github.com/user-attachments/assets/9256a656-a327-4246-a39f-ce122c59117d)  
 
 
 ---  

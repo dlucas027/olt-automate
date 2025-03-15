@@ -71,7 +71,7 @@ Além disso, este projeto também pode ser um ponto de partida para novas funcio
 ##👨🏻‍💻 PROJETO REFATORADO
 
 O código foi refatorado e agora na pasta refactor, é possível encontrar todas as configurações em um só lugar.
-Além disso foi integrado á uma interface gráfico com era desejado no início do projeto.
+Além disso foi integrado á uma interface gráfica, como era desejado no início do projeto.
 
 ### **Menu de Configurações**  
 ![Menu de Configurações](https://github.com/user-attachments/assets/28efe1bf-2d12-4e6c-9244-1f2fd442e132)

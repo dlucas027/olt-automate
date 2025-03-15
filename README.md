@@ -81,7 +81,7 @@ Além disso foi integrado á uma interface gráfica, como era desejado no iníci
 ![Menu de Configurações](https://github.com/user-attachments/assets/83e4808c-a206-40f2-b82a-f2e67b0ba51f)
   
 
-### **Menu de Alto Nível**  
+### **Exemplo de comando retornado**  
 ![Menu de Configurações](https://github.com/user-attachments/assets/11b9eb6d-9ce0-4d0d-938a-81c810d1d1af)
   
 

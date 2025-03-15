@@ -68,7 +68,7 @@ Além disso, este projeto também pode ser um ponto de partida para novas funcio
  
 ---
 
-##👨🏻‍💻 PROJETO REFATORADO
+## 👨🏻‍💻 PROJETO REFATORADO
 
 O código foi refatorado e agora na pasta refactor, é possível encontrar todas as configurações em um só lugar.
 Além disso foi integrado á uma interface gráfica, como era desejado no início do projeto.

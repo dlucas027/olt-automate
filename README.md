@@ -95,27 +95,4 @@ Additionally, it has been integrated with a graphical interface, as initially de
 ---
 ---
 
-
-## Initial Project
-
-### **Initial Configuration Menu**  
-![Initial Configuration Menu](https://github.com/user-attachments/assets/e4496a01-dea1-4f68-a035-fcca7ad2901a)  
-
-### **Intermediate Configuration Menu**  
-![Intermediate Configuration Menu](https://github.com/user-attachments/assets/1089cb06-5070-4046-83e2-398a15d3bfa8)  
-
-### **High-Level Menu**  
-![High-Level Menu](https://github.com/user-attachments/assets/3a25d5da-df01-443a-ba49-f2c02ec89476)  
-
-### **General History (Available Only in This Menu)**  
-![General History](https://github.com/user-attachments/assets/c594ec5f-3044-4486-824d-4aab64e15d0f)  
-
-### **Extra Menu (Options to Bring Up ONU, etc.)**  
-![Extra Menu](https://github.com/user-attachments/assets/9255ea3b-7c22-4a51-b88c-cf19df864de3)  
-
-### **Backup and Reset Menu**  
-![Backup and Reset Menu](https://github.com/user-attachments/assets/9256a656-a327-4246-a39f-ce122c59117d)  
-
----  
-
 [**LinkedIn**](https://www.linkedin.com/in/delucas027)

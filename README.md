@@ -86,8 +86,10 @@ Additionally, it has been integrated with a graphical interface, as initially de
   
 
 ### **Example of Returned Command**  
-![Example of Returned Command](https://github.com/user-attachments/assets/11b9eb6d-9ce0-4d0d-938a-81c810d1d1af)
-  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/11b9eb6d-9ce0-4d0d-938a-81c810d1d1af" alt="Example of Returned Command" />
+</p>
+
 
 ---
 ---

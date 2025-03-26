@@ -1,114 +1,118 @@
-# OLT AUTOMATE  
-
-**Finalidade do Projeto**  
-
-Este projeto é uma ferramenta desenvolvida em Python para facilitar a configuração de OLTs (Optical Line Terminals) da ZTE, mais especificamente os modelos C300, C320 e C350. A ferramenta tem como objetivo proporcionar um processo simplificado e intuitivo para a configuração dessas unidades, tornando mais fácil o trabalho dos profissionais de TI e técnicos de redes que precisam configurar essas OLTs, seja de forma inicial ou para manutenção
-
-## Funcionalidades
-O programa oferece um menu interativo que permite ao usuário selecionar diversas opções de configuração, de maneira clara e objetiva. Quando uma opção é escolhida, o programa retorna a configuração correspondente, além de fornecer explicações sobre a finalidade e os efeitos de cada configuração.
-
-Como Salvar as Configurações
-O programa orienta o usuário sobre como salvar as configurações feitas na OLT, garantindo que todas as alterações sejam persistentes após reinicializações.
-
-Como Ativar e Desativar Interfaces
-Esta opção permite que o usuário ative ou desative interfaces específicas da OLT, como interfaces de gerenciamento ou de uplink, diretamente pelo programa.
-
-Verificação de Configurações Aplicadas
-Ao selecionar essa opção, o usuário pode verificar as configurações que foram aplicadas na OLT, com a possibilidade de identificar se tudo está correto e funcionando como esperado.
-
-Interfaces da OLT
-O programa exibe detalhes sobre as interfaces configuradas na OLT, como informações sobre interfaces físicas e lógicas (PON, GPON, GEI), possibilitando um controle mais preciso das conexões.
-
-•PNP das Placas na OLT:
-Com essa opção, o usuário pode habilitar a detecção Plug-and-Play das placas e configurar o tipo de chassi, racks e shelves, facilitando a integração de novos módulos.
-
-•Configuração de IP de Acesso:
-Aqui, é possível configurar um novo IP de acesso para a OLT, permitindo que o gerenciamento remoto seja feito de forma eficiente.
-
-•Configuração de Gateway Padrão:
-A opção de configurar o gateway padrão é essencial para garantir que a OLT consiga se comunicar com outros dispositivos na rede, direcionando o tráfego de forma adequada.
-
-•Configuração de VLAN de Gerência:
-O programa permite configurar a VLAN de gerenciamento da OLT, o que é crucial para isolar o tráfego administrativo e garantir a segurança da rede.
-
-•Configuração de Interface de Up-Link:
-A interface de uplink (GEI) é configurada para permitir o tráfego de dados para a rede externa, incluindo a ativação de VLANs e ajustes de link.
-
-•Acesso Remoto da OLT:
-O usuário pode configurar o acesso remoto à OLT via Telnet ou SSH, garantindo o gerenciamento da OLT sem a necessidade de uma conexão física.
-
-•Configuração de Banda:
-Para otimizar a utilização da rede, essa opção configura o perfil de banda (TCON e tráfego), estabelecendo as bandas mínimas e máximas para os diferentes tipos de tráfego.
-
-•Configuração de VLAN para ONU:
-Essa funcionalidade permite configurar a VLAN para a ONU, permitindo que as ONUs se comuniquem na rede corretamente com a OLT.
-
-•Acesso Remoto da ONU:
-Similar ao acesso remoto da OLT, essa opção configura o acesso remoto das ONUs, garantindo que possam ser gerenciadas sem necessidade de intervenção local.
-
-•Configuração de PPPOE, Rede e Senha da ONU:
-O PPPOE pode ser configurado, juntamente com a rede e a senha de cada ONU, permitindo a autenticação e conectividade com a rede.
-
-•Histórico das Configurações Aplicadas:
-O programa mantém um histórico das configurações que foram aplicadas, o que permite um acompanhamento das ações feitas até o momento e facilita a revisão do que foi alterado.
-
-•Reset da OLT:
-Permite realizar um reset completo da OLT, útil em situações de erro ou para voltar as configurações para os padrões de fábrica.
-
-•Backup das Configurações da OLT:
-O backup das configurações da OLT é fundamental para preservar as configurações e poder restaurá-las facilmente em caso de falhas ou reconfiguração do dispositivo.  
-
-## 📂 Usabilidade no dia-a-dia 
-
-👉 O principal objetivo deste projeto é automatizar e simplificar o processo de configuração de OLTs ZTE, proporcionando um guia interativo para que qualquer técnico ou administrador de rede consiga configurar uma OLT desde o início sem a necessidade de decorar ou procurar cada comando manualmente.
-
-A ferramenta tem a intenção de ser útil para iniciantes e profissionais experientes, permitindo uma configuração mais rápida, sem erros e com explicações claras para que o usuário compreenda o que está fazendo em cada etapa.
-
-Além disso, este projeto também pode ser um ponto de partida para novas funcionalidades, como a integração com APIs para automação de tarefas ou a criação de interfaces gráficas para tornar o processo ainda mais acessível.
- 
----
-
-## 👨🏻‍💻 PROJETO REFATORADO
-
-O código foi refatorado e agora na pasta refactor, é possível encontrar todas as configurações em um só lugar.
-Além disso foi integrado á uma interface gráfica, como era desejado no início do projeto.
-
-### **Menu de Configurações**  
-![Menu de Configurações](https://github.com/user-attachments/assets/28efe1bf-2d12-4e6c-9244-1f2fd442e132)
-  
-
-### **Projeto em funcionamento**  
-![Menu de Configurações](https://github.com/user-attachments/assets/83e4808c-a206-40f2-b82a-f2e67b0ba51f)
-  
-
-### **Exemplo de comando retornado**  
-![Menu de Configurações](https://github.com/user-attachments/assets/11b9eb6d-9ce0-4d0d-938a-81c810d1d1af)
-  
-
+# automateOLT  
 
 ---
 
+## Project Purpose
 
-## PROJETO INICIAL
+This project is a tool developed in Python to facilitate the configuration of ZTE Optical Line Terminals (OLTs), specifically the C300, C320, and C350 models. The tool aims to provide a simplified and intuitive process for configuring these units, making it easier for IT professionals and network technicians to configure these OLTs, whether for initial setup or for maintenance.
 
-### **Menu de Configurações Iniciais**  
-![Menu de Configurações Iniciais](https://github.com/user-attachments/assets/e4496a01-dea1-4f68-a035-fcca7ad2901a)  
+## Features
+The program offers an interactive menu that allows the user to select various configuration options, in a clear and objective way. When an option is selected, the program returns the corresponding configuration, along with explanations about the purpose and effects of each configuration.
 
-### **Menu de Configurações de Nível Médio**  
-![Menu de Configurações de Nível Médio](https://github.com/user-attachments/assets/1089cb06-5070-4046-83e2-398a15d3bfa8)  
+### How to Save Configurations
+The program guides the user on how to save the settings made on the OLT, ensuring that all changes persist after reboots.
 
-### **Menu de Alto Nível**  
-![Menu de Alto Nível](https://github.com/user-attachments/assets/3a25d5da-df01-443a-ba49-f2c02ec89476)  
+### How to Activate and Deactivate Interfaces
+This option allows the user to activate or deactivate specific interfaces on the OLT, such as management or uplink interfaces, directly from the program.
 
-### **Histórico Geral (Disponível Apenas Neste Menu)**  
-![Histórico Geral](https://github.com/user-attachments/assets/c594ec5f-3044-4486-824d-4aab64e15d0f)  
+### Verifying Applied Configurations
+By selecting this option, the user can verify the configurations that have been applied on the OLT, with the possibility of checking if everything is correct and functioning as expected.
 
-### **Menu Extra (Opções de Subir ONU, etc.)**  
-![Menu Extra](https://github.com/user-attachments/assets/9255ea3b-7c22-4a51-b88c-cf19df864de3)  
+### OLT Interfaces
+The program displays details about the configured interfaces on the OLT, including information about physical and logical interfaces (PON, GPON, GEI), providing more precise control over the connections.
 
-### **Menu de Backup e Reset**  
-![Menu de Backup e Reset](https://github.com/user-attachments/assets/9256a656-a327-4246-a39f-ce122c59117d)  
+### PNP of the OLT Cards:
+With this option, the user can enable Plug-and-Play detection of cards and configure the chassis type, racks, and shelves, facilitating the integration of new modules.
 
+### Access IP Configuration:
+Here, the user can configure a new access IP for the OLT, allowing efficient remote management.
+
+### Default Gateway Configuration:
+The option to configure the default gateway is essential to ensure that the OLT can communicate with other devices on the network, routing traffic appropriately.
+
+### Management VLAN Configuration:
+The program allows the configuration of the OLT's management VLAN, which is crucial to isolate administrative traffic and ensure network security.
+
+### Up-Link Interface Configuration:
+The uplink interface (GEI) is configured to allow data traffic to the external network, including VLAN activations and link adjustments.
+
+### Remote OLT Access:
+The user can configure remote access to the OLT via Telnet or SSH, ensuring OLT management without the need for a physical connection.
+
+### Bandwidth Configuration:
+To optimize network usage, this option configures the bandwidth profile (TCON and traffic), establishing minimum and maximum bandwidths for different types of traffic.
+
+### VLAN Configuration for ONU:
+This feature allows configuring the VLAN for ONUs, ensuring that ONUs can communicate properly on the network with the OLT.
+
+### Remote Access for ONU:
+Similar to remote OLT access, this option configures remote access for ONUs, ensuring they can be managed without local intervention.
+
+### PPPOE Configuration, Network, and ONU Password:
+PPPoE can be configured along with the network and password for each ONU, enabling authentication and connectivity with the network.
+
+### History of Applied Configurations:
+The program keeps a history of the configurations that have been applied, allowing tracking of actions taken and facilitating review of what has been altered.
+
+### OLT Reset:
+Allows performing a complete reset of the OLT, useful in error situations or to revert the settings to factory defaults.
+
+### OLT Configuration Backup:
+Backing up the OLT's configurations is essential to preserve the settings and easily restore them in case of failure or device reconfiguration.  
+
+---
+
+## 📂 Usability in Daily Life
+
+The main objective of this project is to automate and simplify the process of configuring ZTE OLTs, providing an interactive guide so that any technician or network administrator can configure an OLT from scratch without the need to memorize or search for each command manually.
+
+The tool aims to be useful for both beginners and experienced professionals, enabling faster configurations without errors and with clear explanations so the user understands what they are doing at each step.
+
+Furthermore, this project could also serve as a starting point for new features, such as integration with APIs for task automation or the creation of graphical interfaces to make the process even more accessible.
+
+---
+
+## Project Features
+
+The code has been refactored, and now in the "refactor" folder, you can find all configurations in one place.
+Additionally, it has been integrated with a graphical interface, as initially desired in the project.
+
+### **Configuration Menu**  
+![Configuration Menu](https://github.com/user-attachments/assets/28efe1bf-2d12-4e6c-9244-1f2fd442e132)
+  
+
+### **Project in Action**  
+![Project in Action](https://github.com/user-attachments/assets/83e4808c-a206-40f2-b82a-f2e67b0ba51f)
+  
+
+### **Example of Returned Command**  
+![Example of Returned Command](https://github.com/user-attachments/assets/11b9eb6d-9ce0-4d0d-938a-81c810d1d1af)
+  
+
+---
+---
+---
+
+
+## Initial Project
+
+### **Initial Configuration Menu**  
+![Initial Configuration Menu](https://github.com/user-attachments/assets/e4496a01-dea1-4f68-a035-fcca7ad2901a)  
+
+### **Intermediate Configuration Menu**  
+![Intermediate Configuration Menu](https://github.com/user-attachments/assets/1089cb06-5070-4046-83e2-398a15d3bfa8)  
+
+### **High-Level Menu**  
+![High-Level Menu](https://github.com/user-attachments/assets/3a25d5da-df01-443a-ba49-f2c02ec89476)  
+
+### **General History (Available Only in This Menu)**  
+![General History](https://github.com/user-attachments/assets/c594ec5f-3044-4486-824d-4aab64e15d0f)  
+
+### **Extra Menu (Options to Bring Up ONU, etc.)**  
+![Extra Menu](https://github.com/user-attachments/assets/9255ea3b-7c22-4a51-b88c-cf19df864de3)  
+
+### **Backup and Reset Menu**  
+![Backup and Reset Menu](https://github.com/user-attachments/assets/9256a656-a327-4246-a39f-ce122c59117d)  
 
 ---  
 

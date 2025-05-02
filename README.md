@@ -95,4 +95,3 @@ Additionally, it has been integrated with a graphical interface, as initially de
 ---
 ---
 
-[**LinkedIn**](https://www.linkedin.com/in/delucas027)
